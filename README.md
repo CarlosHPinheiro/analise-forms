@@ -45,7 +45,7 @@ Para rodar o projeto, siga as instruções abaixo para configurar o ambiente e i
 
 **Clone o Repositório**
 
-Primeiro, clone o repositório para sua máquina local usando o Git. Abra um terminal e execute o comando:
+Primeiro, clone o repositório para sua máquina local usando o Git. Abra um terminal e execute o seguinte comando:
 
 ```
 git clone https://github.com/CarlosHPinheiro/analise-forms.git
