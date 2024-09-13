@@ -6,9 +6,9 @@ O programa faz a leitura do arquivo `.csv` e cria um relatório dos dados extra�
 
 Para cada categoria de perguntas do formulário é gerado um gráfico com a análise percentual de acordo com as respostas coletadas através dos formulários.
 
--   [Modelo de formulário utilizado](https://dfsdf.com.br)
+-   [Modelo de formulário utilizado](assets/formulario-modelo.pdf)
 
--   [Exemplo do formato extraído dos formulários](dfsdfsdfs)
+-   [Exemplo do formato extraído dos formulários](assets/csv-exemplo.png)
 
 ## Tecnologias Utilizadas
 
@@ -76,7 +76,7 @@ source venv/bin/activate
 
 **Instale as dependências**
 
-Com o ambiente virtual ativado, instale as dependências listadas no arquivo `requirements.txt` utilizando com o seguinte comando:
+Com o ambiente virtual ativado, instale as dependências listadas no arquivo `requirements.txt` utilizando o seguinte comando:
 
 ```
 pip install -r requirements.txt
@@ -96,4 +96,8 @@ python app.py
 
 **Após a execução**
 
-Após a execução do programa é criada uma pasta `Relatório` contendo um arquivo excel `planilha.xlsx` com os dados extraídos da análise organizados em uma planilha e os arquivos `png` com os gráficos referentes a cada categoria contendo o percentual de cada resposta colhida através dos formulários.
+Após a execução do programa é criada uma pasta `Relatório` contendo um arquivo excel `planilha.xlsx` com os dados extraídos da análise tratados e organizados em uma planilha, assim como também é gerada uma pasta `graficos` que contém os arquivos em formato `png` de todos os gráficos referentes a cada categoria de perguntas do questionário contendo o percentual de cada resposta colhida através dos formulários.
+
+### Demonstração
+
+[](assets/app-execucao.gif)
