@@ -10,6 +10,8 @@ Para cada categoria de perguntas do formulário é gerado um gráfico com a aná
 
 -   [Exemplo do formato extraído dos formulários](assets/csv-exemplo.png)
 
+-   [Aplicação em Execução](assets/app-execucao.gif)
+
 ## Tecnologias Utilizadas
 
 -   **Python** - https://www.python.org/
@@ -98,6 +100,7 @@ python app.py
 
 Após a execução do programa é criada uma pasta `Relatório` contendo um arquivo excel `planilha.xlsx` com os dados extraídos da análise tratados e organizados em uma planilha, assim como também é gerada uma pasta `graficos` que contém os arquivos em formato `png` de todos os gráficos referentes a cada categoria de perguntas do questionário contendo o percentual de cada resposta colhida através dos formulários.
 
-### Demonstração
 
-[](assets/app-execucao.gif)
+**Aplicação em execução:**
+
+![](assets/app-execucao.gif)
